@@ -15,7 +15,8 @@ The 'alohandes' folder contains the transactional application built throughout t
 
 The other folders contain the documents corresponding to each iteration, and in the 'TALLERES' folder, you can find the developments achieved for each of the 3 practical workshops of the course.
 <hr>
-Steps to Install the ALOHANDES Application
+
+## Steps to Install the ALOHANDES Application
 
 Here are the sequential steps to install and test the built application:
 
