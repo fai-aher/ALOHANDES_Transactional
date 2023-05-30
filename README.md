@@ -103,6 +103,111 @@ La entrega de la iteración 4 se puede visualizar en la carpeta 'alohandes' y la
   <strong>Clave:</strong> 123
   
 <hr>
+<center>
+  <h2> Couple A-01 - Transactional Systems </h2>
+</center>
 
-## Notas sobre puntualidad
-- Por ahora, todos estos archivos se han subido al repositorio antes de la fecha y hora límite de entrega correspondiente.
+The team members are:
+
+    Cristian Acuña Silva (cb.acuna)
+    Alonso Hernández Tavera (f.hernandezt)
+
+<hr style="height: 0.5px; background-color: #000; border: none;">
+Repository Folders
+
+The 'alohandes' folder contains the transactional application built throughout the course.
+
+The other folders contain the documents corresponding to each iteration, and in the 'TALLERES' folder, you can find the developments achieved for each of the 3 practical workshops of the course.
+<hr>
+Steps to Install the ALOHANDES Application
+
+Here are the sequential steps to install and test the built application:
+
+    Clone this repository to a location on your operating system.
+    Open the 'alohandes' folder in Eclipse IDE (it is recommended to use Eclipse) and load the 'st-alohandes-jdo-est' folder into the IDE's project directory.
+    Once this folder is loaded in the IDE, go to src/main/java/uniandes.isis2304.alohandes.interfazApp (this is a Java package in the project), open the class named 'InterfazAlohandesApp.java', or right-click on this file in the project explorer.
+    Select the option in your IDE to run or 'execute' the code in that class, which contains a main function.
+    At this point, you should be able to see the graphical interface of the application. Explore the 'Modificaciones IT3' and 'Consultas IT3' dropdown buttons for this iteration.
+
+<hr>
+Workshop 1 Submission: AFORANDES Case
+
+For the workshop 1 submission, a folder with a PDF document containing all the developed work, along with an image showing the conceptual diagram with better resolution, has been uploaded to this repository. These two files were also uploaded repeatedly in the initial folder of the repository.
+<hr>
+Iteration 1 Submission: ALOHANDES Case
+
+For the iteration 1 submission, three documents with the developed content have been uploaded to this repository in the 'ITERACIÓN 1' folder:
+
+    An image with the conceptual diagram for better visibility.
+    An Excel file with the modeled tables or relationships for the case.
+    A PDF document with the entire development, design, justifications, and analysis of the ALOHANDES case.
+
+<hr>
+Workshop 2 - Part 1 Submission: PARRANDEROS Case
+
+For the workshop 2 - part 1 submission, a folder with a PDF document containing all the developed work, along with the SQL script files, where each query corresponding to the requested requirements can be viewed and executed, has been uploaded to this repository.
+<hr>
+Workshop 2 - Part 2 Submission: PARRANDEROS Case
+
+For the workshop 2 - part 2 submission, a folder ("Taller 2.2 SQL Parte 2") with a PDF document containing all the developed work, along with the SQL script files, where each query corresponding to the requested requirements can be viewed and executed, has been uploaded to this repository.
+<hr>
+Iteration 2 Submission: ALOHANDES Case
+
+For the iteration 2 submission, two main folders with the deliverable contents have been uploaded to this repository:
+
+    The folder named 'ITERACION 2' contains all the development and analysis documents requested in the statement, as well as separate files for the SQL queries used in Functional Requirements 4, 5, 6, and Query Functional Requirements 1, 2, 3, and 4.
+    The folder named 'ITERACION_2' contains all the written and developed code by the workgroup for the iteration 2 submission. It includes configuration files and source code to build the transactional application for the ALOHANDES model.
+
+To execute the built project:
+
+    Go to the 'ITERACION_2' folder.
+    Then go to the src -> main -> java/alohandes -> InterfazApp directory and open the InterfazAlohandesApp.java file.
+    Once you are in InterfazAlohandesApp.java, click the run button in any IDE, or right-click on this file in the file explorer and click run.
+    The built interface will appear along with several buttons that allow access to the implemented methods.
+
+<hr>
+Iteration 3 Submission: ALOHANDES Case
+
+The iteration 3 submission can be found in the following paths of this repository:
+
+a. The complete code of the ALOHANDES transactional application can be found in the 'alohandes' folder in the main repository path.
+
+b. The iteration report document along with the SQL queries and the Excel file containing the performed tests can be found in the 'ITERACION3_Docs' folder in the main repository path.
+<hr>
+Iteration 4 Submission: ALOHANDES Case
+
+The iteration 4 submission can be found in the 'alohandes' folder and the 'ITERACION4_Docs' folder.
+
+    The transactional application built can be found in the alohandes folder.
+    The ITERACION4_Docs folder contains all the documents and scripts prepared by the workgroup to support the development of the new requirements, demonstrate their functionality, document tests, and show the configuration files.
+
+<h3><strong>The updated documents have been attached for:</strong></h3>
+
+    The project report, which includes the documentation of the new requirements and the achieved/unachieved objectives.
+    The Excel file with the test balance and documented tests.
+    The configuration files of the built interfaces.
+
+<h3><strong>Information about the credentials to access the application:</strong></h3>
+
+    <strong>To log in as the ALOHANDES Manager:</strong>
+
+<strong>Username:</strong> gerente
+
+<strong>Password:</strong> alohandes
+
+    <strong>To log in as an ALOHANDES Client:</strong>
+
+You can use any registered credentials in the Cliente table. For example:
+
+<strong>Username:</strong> pepe
+
+<strong>Password:</strong> 123
+
+    <strong>To log in as an ALOHANDES Operator:</strong>
+
+You can use any registered credentials in the Operador table. For example:
+
+<strong>Username:</strong> bob
+
+<strong>Password:</strong> 123
+<hr>
