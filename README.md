@@ -1,5 +1,117 @@
 <center>
-  <h2> Pareja A-01 - Sistemas Transaccionales </h2>
+  <h2> Transactional Application - ALOHANDES </h2>
+</center>
+
+The team members are:
+
+    Cristian Acuña Silva (cb.acuna) - @cracsi(GitHub)
+    Alonso Hernández Tavera (f.hernandezt) - @fai-aher(GitHub)
+
+<hr style="height: 0.5px; background-color: #000; border: none;">
+
+## Repository Folders
+
+The 'alohandes' folder contains the transactional application built throughout the course.
+
+The other folders contain the documents corresponding to each iteration, and in the 'TALLERES' folder, you can find the developments achieved for each of the 3 practical workshops of the course.
+<hr>
+Steps to Install the ALOHANDES Application
+
+Here are the sequential steps to install and test the built application:
+
+1. Clone this repository to a location on your operating system.
+2. Open the 'alohandes' folder in Eclipse IDE (it is recommended to use Eclipse) and load the 'st-alohandes-jdo-est' folder into the IDE's project directory.
+3. Once this folder is loaded in the IDE, go to src/main/java/uniandes.isis2304.alohandes.interfazApp (this is a Java package in the project), open the class named 'InterfazAlohandesApp.java', or right-click on this file in the project explorer.
+4. Select the option in your IDE to run or 'execute' the code in that class, which contains a main function.
+5. At this point, you should be able to see the graphical interface of the application. Explore the 'Modificaciones IT3' and 'Consultas IT3' dropdown buttons for this iteration.
+
+<hr>
+
+## Workshop 1 Submission: AFORANDES Case
+
+For the workshop 1 submission, a folder with a PDF document containing all the developed work, along with an image showing the conceptual diagram with better resolution, has been uploaded to this repository. These two files were also uploaded repeatedly in the initial folder of the repository.
+
+<hr>
+
+## Iteration 1 Submission: ALOHANDES Case
+
+For the iteration 1 submission, three documents with the developed content have been uploaded to this repository in the 'ITERACIÓN 1' folder:
+
+1. An image with the conceptual diagram for better visibility.
+2. An Excel file with the modeled tables or relationships for the case.
+3. A PDF document with the entire development, design, justifications, and analysis of the ALOHANDES case.
+
+<hr>
+
+## Workshop 2 - Part 1 Submission: PARRANDEROS Case
+
+For the workshop 2 - part 1 submission, a folder with a PDF document containing all the developed work, along with the SQL script files, where each query corresponding to the requested requirements can be viewed and executed, has been uploaded to this repository.
+<hr>
+
+## Workshop 2 - Part 2 Submission: PARRANDEROS Case
+
+For the workshop 2 - part 2 submission, a folder ("Taller 2.2 SQL Parte 2") with a PDF document containing all the developed work, along with the SQL script files, where each query corresponding to the requested requirements can be viewed and executed, has been uploaded to this repository.
+<hr>
+
+## Iteration 2 Submission: ALOHANDES Case
+
+For the iteration 2 submission, two main folders with the deliverable contents have been uploaded to this repository:
+
+1. The folder named 'ITERACION2_Docs' contains all the development and analysis documents requested in the statement, as well as separate files for the SQL queries used in Functional Requirements 4, 5, 6, and Query Functional Requirements 1, 2, 3, and 4.
+
+<hr>
+
+## Iteration 3 Submission: ALOHANDES Case
+
+The iteration 3 submission can be found in the following paths of this repository:
+
+a. The complete code of the ALOHANDES transactional application can be found in the 'alohandes' folder in the main repository path.
+
+b. The iteration report document along with the SQL queries and the Excel file containing the performed tests can be found in the 'ITERACION3_Docs' folder in the main repository path.
+
+<hr>
+
+## Iteration 4 Submission: ALOHANDES Case
+
+The iteration 4 submission can be found in the 'alohandes' folder and the 'ITERACION4_Docs' folder.
+
+1. The transactional application built can be found in the alohandes folder.
+2. The ITERACION4_Docs folder contains all the documents and scripts prepared by the workgroup to support the development of the new requirements, demonstrate their functionality, document tests, and show the configuration files.
+
+<h3><strong>The updated documents have been attached for:</strong></h3>
+
+1. The project report, which includes the documentation of the new requirements and the achieved/unachieved objectives.
+2. The Excel file with the test balance and documented tests.
+3. The configuration files of the built interfaces.
+
+<h3><strong>Information about the credentials to access the application:</strong></h3>
+
+<strong>To log in as the ALOHANDES Manager:</strong>
+
+    Username: gerente
+
+    Password: alohandes
+
+<strong>To log in as an ALOHANDES Client:</strong>
+
+You can use any registered credentials in the Cliente table. For example:
+
+    Username: pepe
+
+    Password: 123
+
+<strong>To log in as an ALOHANDES Operator:</strong>
+
+You can use any registered credentials in the Operador table. For example:
+
+    Username: bob
+
+    Password: 123
+    
+<hr>
+
+<center>
+  <h2> Aplicación Transaccional - ALOHANDES - Versión en Español </h2>
 </center>
 
 Los integrantes del equipo son:
@@ -101,113 +213,3 @@ La entrega de la iteración 4 se puede visualizar en la carpeta 'alohandes' y la
   <strong>Usuario:</strong> bob
   
   <strong>Clave:</strong> 123
-  
-<hr>
-<center>
-  <h2> Couple A-01 - Transactional Systems </h2>
-</center>
-
-The team members are:
-
-    Cristian Acuña Silva (cb.acuna) - @cracsi(GitHub)
-    Alonso Hernández Tavera (f.hernandezt) - @fai-aher(GitHub)
-
-<hr style="height: 0.5px; background-color: #000; border: none;">
-
-## Repository Folders
-
-The 'alohandes' folder contains the transactional application built throughout the course.
-
-The other folders contain the documents corresponding to each iteration, and in the 'TALLERES' folder, you can find the developments achieved for each of the 3 practical workshops of the course.
-<hr>
-Steps to Install the ALOHANDES Application
-
-Here are the sequential steps to install and test the built application:
-
-1. Clone this repository to a location on your operating system.
-2. Open the 'alohandes' folder in Eclipse IDE (it is recommended to use Eclipse) and load the 'st-alohandes-jdo-est' folder into the IDE's project directory.
-3. Once this folder is loaded in the IDE, go to src/main/java/uniandes.isis2304.alohandes.interfazApp (this is a Java package in the project), open the class named 'InterfazAlohandesApp.java', or right-click on this file in the project explorer.
-4. Select the option in your IDE to run or 'execute' the code in that class, which contains a main function.
-5. At this point, you should be able to see the graphical interface of the application. Explore the 'Modificaciones IT3' and 'Consultas IT3' dropdown buttons for this iteration.
-
-<hr>
-
-## Workshop 1 Submission: AFORANDES Case
-
-For the workshop 1 submission, a folder with a PDF document containing all the developed work, along with an image showing the conceptual diagram with better resolution, has been uploaded to this repository. These two files were also uploaded repeatedly in the initial folder of the repository.
-
-<hr>
-
-## Iteration 1 Submission: ALOHANDES Case
-
-For the iteration 1 submission, three documents with the developed content have been uploaded to this repository in the 'ITERACIÓN 1' folder:
-
-1. An image with the conceptual diagram for better visibility.
-2. An Excel file with the modeled tables or relationships for the case.
-3. A PDF document with the entire development, design, justifications, and analysis of the ALOHANDES case.
-
-<hr>
-
-## Workshop 2 - Part 1 Submission: PARRANDEROS Case
-
-For the workshop 2 - part 1 submission, a folder with a PDF document containing all the developed work, along with the SQL script files, where each query corresponding to the requested requirements can be viewed and executed, has been uploaded to this repository.
-<hr>
-Workshop 2 - Part 2 Submission: PARRANDEROS Case
-
-For the workshop 2 - part 2 submission, a folder ("Taller 2.2 SQL Parte 2") with a PDF document containing all the developed work, along with the SQL script files, where each query corresponding to the requested requirements can be viewed and executed, has been uploaded to this repository.
-<hr>
-Iteration 2 Submission: ALOHANDES Case
-
-For the iteration 2 submission, two main folders with the deliverable contents have been uploaded to this repository:
-
-1. The folder named 'ITERACION2_Docs' contains all the development and analysis documents requested in the statement, as well as separate files for the SQL queries used in Functional Requirements 4, 5, 6, and Query Functional Requirements 1, 2, 3, and 4.
-
-<hr>
-
-## Iteration 3 Submission: ALOHANDES Case
-
-The iteration 3 submission can be found in the following paths of this repository:
-
-a. The complete code of the ALOHANDES transactional application can be found in the 'alohandes' folder in the main repository path.
-
-b. The iteration report document along with the SQL queries and the Excel file containing the performed tests can be found in the 'ITERACION3_Docs' folder in the main repository path.
-
-<hr>
-
-## Iteration 4 Submission: ALOHANDES Case
-
-The iteration 4 submission can be found in the 'alohandes' folder and the 'ITERACION4_Docs' folder.
-
-1. The transactional application built can be found in the alohandes folder.
-2. The ITERACION4_Docs folder contains all the documents and scripts prepared by the workgroup to support the development of the new requirements, demonstrate their functionality, document tests, and show the configuration files.
-
-<h3><strong>The updated documents have been attached for:</strong></h3>
-
-1. The project report, which includes the documentation of the new requirements and the achieved/unachieved objectives.
-2. The Excel file with the test balance and documented tests.
-3. The configuration files of the built interfaces.
-
-<h3><strong>Information about the credentials to access the application:</strong></h3>
-
-<strong>To log in as the ALOHANDES Manager:</strong>
-
-    <strong>Username:</strong> gerente
-
-    <strong>Password:</strong> alohandes
-
-<strong>To log in as an ALOHANDES Client:</strong>
-
-You can use any registered credentials in the Cliente table. For example:
-
-    <strong>Username:</strong> pepe
-
-    <strong>Password:</strong> 123
-
-<strong>To log in as an ALOHANDES Operator:</strong>
-
-You can use any registered credentials in the Operador table. For example:
-
-    <strong>Username:</strong> bob
-
-    <strong>Password:</strong> 123
-<hr>
