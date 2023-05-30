@@ -1,0 +1,7 @@
+/* RF6: Retirar Oferta de Alojamiento */
+
+DELETE FROM OFERTAALOJAMIENTO WHERE id = ? AND OFERTAALOJAMIENTO.ofertaactiva = FALSE;
+
+/* Retirar todas */
+
+DELETE FROM OFERTAALOJAMIENTO WHERE OFERTAALOJAMIENTO.ofertaactiva = FALSE;

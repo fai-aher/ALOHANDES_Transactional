@@ -1,0 +1,96 @@
+{
+	"title": "Cliente de Alohandes - Uniandes",
+	"frameH": 780,
+	"frameW": 700,
+	"bannerPath": "./src/main/resources/config/living.jpg",
+	"bannerWidth": 675,
+    "bannerHeight": 400,
+	"menuBar":
+	[
+	
+		{ "menuTitle": "OfertaAlojamiento",
+		  "options":
+			[
+
+				{
+					"label": "Listar",
+					"event": "listarOfertaAlojamiento"
+				}
+			]
+		},
+		{ "menuTitle": "Revisar consumo",
+		"options":
+		  [
+
+			  {
+				  "label": "conusltar Consumo",
+				  "event": "consultarConsumo1"
+			  }
+		  ]
+	  },
+
+		{ "menuTitle": "Servicios",
+		  "options":
+			[
+				{
+					"label": "Listar",
+					"event": "listarServicios"
+				},
+				{
+					"label": "Buscar por Nombre",
+					"event": "buscarServiciosPorNombre"
+				}
+			]
+		},
+		{ "menuTitle": "Vivienda",
+		  "options":
+			[
+				{
+					"label": "Listar",
+					"event": "listarVivienda"
+				}
+			]
+		},
+	
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Parranderos",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+}
+	

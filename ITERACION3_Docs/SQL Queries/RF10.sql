@@ -1,0 +1,1 @@
+"UPDATE " + pp.darTablaOfertaAlojamiento() + " SET ofertaDisponible = ? WHERE idoferta = ?"

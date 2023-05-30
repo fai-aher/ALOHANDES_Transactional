@@ -1,0 +1,257 @@
+{
+	"title": "Gerente de Alohandes - Uniandes",
+	"frameH": 780,
+	"frameW": 880,
+	"bannerPath": "./src/main/resources/config/main.jpg",
+	"bannerWidth": 675,
+    "bannerHeight": 400,
+	"menuBar":
+	[
+		{ "menuTitle": "Consultas IT2",
+		  "options":
+		  	[
+		  		{
+		  			"label": "Dinero Proveedor",
+		  			"event": "dineroRecibidoPorProveedor"
+		  		
+		  		},
+		  		
+		  		{
+		  			"label": "Ofertas Populares",
+		  			"event": "ofertasMasPopulares"
+		  		
+		  		},
+		  		
+		  		{
+		  			"label": "Indice Ocupacion",
+		  			"event": "mostrarIndiceOcupacion"
+		  		
+		  		},
+		  		
+		  		{
+		  			"label": "Alojamientos Dispo.",
+		  			"event": ""
+		  		
+		  		}
+		  	]
+		},
+		
+		
+		{ "menuTitle": "Modificaciones IT3",
+		"options":
+			[
+				{
+					"label": "Registrar R. Colectiva",
+					"event": "registrarReservaColectiva"
+				
+				},
+				
+				{
+					"label": "Cancelar R. Colectiva",
+					"event": "cancelarReservaColectiva"
+				
+				},
+				
+				{
+					"label": "Deshabilitar Oferta",
+					"event": "deshabilitarOferta"
+				
+				},
+				
+				{
+					"label": "Rehabilitar Oferta",
+					"event": "rehabilitarOferta"
+				
+				}
+			]
+	  },
+		
+				{ "menuTitle": "Consultas IT3",
+		  "options":
+		  	[
+		  		{
+		  			"label": "Analizar Operacion",
+		  			"event": "analizarOperacionAlohandes"
+		  		
+		  		},
+		  		
+		  		{
+		  			"label": "Clientes Frecuentes",
+		  			"event": "encontrarClientesFrecuentes"
+		  		
+		  		},
+		  		
+		  		{
+		  			"label": "Ofertas Poca Demanda",
+		  			"event": "encontrarOfertasPocaDemanda"
+		  		
+		  		}
+		  	
+		  	]
+		},
+		
+		{ "menuTitle": "Consultas IT4",
+		  "options":
+		  	[
+		  		
+		  		{
+		  			"label": "Consultar Funcionamiento",
+		  			"event": "consultarFuncionamiento"
+		  		
+		  		},
+		  		
+				{
+		  			"label": "Buenos Clientes",
+		  			"event": "mostrarBuenosClientes"
+		  		
+		  		}
+				  ,
+		  		
+				  {
+						"label": "Consultar Consumo",
+						"event": "consultarConsumo"
+					}
+					,
+		  		
+				  {
+						"label": "Consultar No Consumo",
+						"event": "consultarNoConsumo"
+					}
+		  	
+		  	]
+		},
+		
+	
+		{ "menuTitle": "Cliente",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarCliente"
+				},
+				{
+					"label": "Listar",
+					"event": "listarCliente"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarClientePorId"
+				},
+				{
+					"label": "Buscar por Id",
+					"event": "buscarClientePorId"
+				}
+			]
+		},
+
+		{ "menuTitle": "Operador",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarOperador"
+				},
+				{
+					"label": "Listar",
+					"event": "listarOperador"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarOperadorPorId"
+				},
+				{
+					"label": "Buscar por Nombre",
+					"event": "buscarOperadorPorNombre"
+				}
+			]
+		},
+
+		{ "menuTitle": "Reserva",
+		  "options":
+			[
+				{
+					"label": "Registrar",
+					"event": "adicionarReserva"
+				},
+				{
+					"label": "Listar",
+					"event": "listarReserva"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarReservaPorId"
+				},
+				{
+					"label": "Buscar por Id",
+					"event": "buscarReservaPorId"
+				}
+			]
+		},
+	
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Parranderos",
+					"event": "mostrarLogParranderos"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de parranderos",
+					"event": "limpiarLogParranderos"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Parranderos",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+}
+	

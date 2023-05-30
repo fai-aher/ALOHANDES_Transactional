@@ -1,0 +1,18 @@
+{
+	"title": "Nombres de las tablas de Alohandes",
+	"unidadPersistencia": "Alohandes",
+	"tablas":
+	[
+		"CLIENTE",
+		"EMPRESASALOJAMIENTO",
+		"HABITACION",
+		"INMUEBLE",
+		"OFERTAALOJAMIENTO",
+		"OPERADOR",
+		"PERSONASNATURALES",
+		"RESERVA",
+		"SERVICIOS",
+		"SERVICIOSXOFERTA",
+		"VIVIENDA"
+	]
+}

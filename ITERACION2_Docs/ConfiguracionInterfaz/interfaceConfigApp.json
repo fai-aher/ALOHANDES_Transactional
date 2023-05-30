@@ -1,0 +1,284 @@
+{
+	"title": "Aplicación transaccional de Alohandes Uniandes",
+	"frameH": 600,
+	"frameW": 1600,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Cliente",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarCliente"
+				},
+				{
+					"label": "Listar",
+					"event": "listarClientes"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarClientePorId"
+				},
+				{
+					"label": "Buscar por Nombre",
+					"event": "buscarClientePorNombre"
+				}
+			]
+		},
+		{ "menuTitle": "EmpresaAlojamiento",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarEmpresaAlojamiento"
+				},
+				{
+					"label": "Listar",
+					"event": "listarEmpresaAlojamiento"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarEmpresaAlojamientoPorId"
+				},
+				{
+					"label": "Buscar por Nombre",
+					"event": "buscarEmpresaAlojamientoPorNombre"
+				}
+			]
+		},
+		{ "menuTitle": "Habitacion",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarHabitacion"
+				},
+				{
+					"label": "Listar",
+					"event": "listarHabitacion"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarHabitacionPorId"
+				},
+				{
+					"label": "Buscar por Id",
+					"event": "buscarHabitacionPorId"
+				}
+			]
+		},
+		{ "menuTitle": "Inmueble",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarInmueble"
+				},
+				{
+					"label": "Listar",
+					"event": "listarInmueble"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarInmueblePorId"
+				},
+				{
+					"label": "Buscar por Id",
+					"event": "buscarInmueblePorNombre"
+				}
+			]
+		},
+		{ "menuTitle": "OfertaAlojamiento",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarOfertaAlojamiento"
+				},
+				{
+					"label": "Listar",
+					"event": "listarOfertaAlojamiento"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarOfertaAlojamientoPorId"
+				},
+				{
+					"label": "Buscar por Id",
+					"event": "buscarOfertaAlojamientoPorId"
+				}
+			]
+		},
+		{ "menuTitle": "Operador",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarOperador"
+				},
+				{
+					"label": "Listar",
+					"event": "listarOperador"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarOperadorPorId"
+				},
+				{
+					"label": "Buscar por Nombre",
+					"event": "buscarOperadorPorNombre"
+				}
+			]
+		},
+		{ "menuTitle": "PersonasNaturales",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarPersonasNaturales"
+				},
+				{
+					"label": "Listar",
+					"event": "listarPersonasNaturales"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarPersonasNaturalesPorId"
+				},
+				{
+					"label": "Buscar por Nombre",
+					"event": "buscarPersonasNaturalesPorNombre"
+				}
+			]
+		},
+		{ "menuTitle": "Reserva",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarReserva"
+				},
+				{
+					"label": "Listar",
+					"event": "listarReserva"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarReservaPorId"
+				},
+				{
+					"label": "Buscar por Id",
+					"event": "buscarReservaPorId"
+				}
+			]
+		},
+		{ "menuTitle": "Servicios",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarServicios"
+				},
+				{
+					"label": "Listar",
+					"event": "listarServicios"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarServiciosPorId"
+				},
+				{
+					"label": "Buscar por Nombre",
+					"event": "buscarServiciosPorNombre"
+				}
+			]
+		},
+		{ "menuTitle": "Vivienda",
+		  "options":
+			[
+				{
+					"label": "Adicionar",
+					"event": "adicionarVivienda"
+				},
+				{
+					"label": "Listar",
+					"event": "listarVivienda"
+				},
+				{
+					"label": "Borrar por Id",
+					"event": "eliminarViviendaPorId"
+				},
+				{
+					"label": "Buscar por Id",
+					"event": "buscarViviendaPorId"
+				}
+			]
+		},
+		{ "menuTitle": "Mantenimiento",
+		  "options":
+			[
+				{
+					"label": "Mostrar log Parranderos",
+					"event": "mostrarLogParranderos"
+				},
+				{
+					"label": "Mostrar log datanucleus",
+					"event": "mostrarLogDatanuecleus"
+				},
+				{
+					"label": "Limpiar log de parranderos",
+					"event": "limpiarLogParranderos"
+				},
+				{
+					"label": "Limpiar log de datanucleus",
+					"event": "limpiarLogDatanucleus"
+				},
+				{
+					"label": "Limpiar Base de Datos",
+					"event": "limpiarBD"
+				}
+			]
+		},		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				},
+				{
+					"label": "Javadoc Parranderos",
+					"event": "mostrarJavadoc"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+}
+	
